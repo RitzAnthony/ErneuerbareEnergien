@@ -10,7 +10,7 @@ namespace CimArkUnitTests
     [TestClass]
     public class PowerStatisticTest
     {
-        //This command is a jenkins test
+        //This command is a jenkins test 2.0
         private readonly CimArkDevEntities _ctx = new CimArkDevEntities();
 
         //Method GetAllPowerProductionByYear
