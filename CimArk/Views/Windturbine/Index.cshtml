@@ -1,0 +1,101 @@
+﻿@model IEnumerable<DAL.Powerplant>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.No_RPC)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Power)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PowerAvgYear)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Launch)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PostalCode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Streetname)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Streetnumber)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GPS_X)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GPS_Y)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.City)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PowerType.Name)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.No_RPC)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Power)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PowerAvgYear)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Launch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PostalCode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Streetname)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Streetnumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GPS_X)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GPS_Y)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.City)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PowerType.Name)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

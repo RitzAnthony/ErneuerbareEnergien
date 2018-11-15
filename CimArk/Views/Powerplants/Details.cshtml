@@ -1,0 +1,106 @@
+﻿@model DAL.Powerplant
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Powerplant</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.No_RPC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.No_RPC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Power)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Power)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PowerAvgYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PowerAvgYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Launch)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Launch)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Streetname)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Streetname)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Streetnumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Streetnumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GPS_X)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GPS_X)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GPS_Y)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GPS_Y)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PowerType.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PowerType.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

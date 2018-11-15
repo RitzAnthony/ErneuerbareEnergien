@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CimArk", "CimArk\CimArk.csproj", "{C83054E4-5DEC-4695-AFFF-4F0E9B0E40F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{CE43CDDE-D432-465F-9B85-6170365E6041}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{BE2841DE-B4EB-40A5-B5F6-614FB5051D3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CimArkUnitTests", "CimArkUnitTests\CimArkUnitTests.csproj", "{124B22A4-130E-4410-8D19-B04FACD36DF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DTO2", "DTO2\DTO2.csproj", "{BCBC8414-A8C6-4338-8AE1-20771DC83EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C83054E4-5DEC-4695-AFFF-4F0E9B0E40F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C83054E4-5DEC-4695-AFFF-4F0E9B0E40F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C83054E4-5DEC-4695-AFFF-4F0E9B0E40F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C83054E4-5DEC-4695-AFFF-4F0E9B0E40F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE43CDDE-D432-465F-9B85-6170365E6041}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE43CDDE-D432-465F-9B85-6170365E6041}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE43CDDE-D432-465F-9B85-6170365E6041}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE43CDDE-D432-465F-9B85-6170365E6041}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE2841DE-B4EB-40A5-B5F6-614FB5051D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE2841DE-B4EB-40A5-B5F6-614FB5051D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE2841DE-B4EB-40A5-B5F6-614FB5051D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE2841DE-B4EB-40A5-B5F6-614FB5051D3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124B22A4-130E-4410-8D19-B04FACD36DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124B22A4-130E-4410-8D19-B04FACD36DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124B22A4-130E-4410-8D19-B04FACD36DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124B22A4-130E-4410-8D19-B04FACD36DF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBC8414-A8C6-4338-8AE1-20771DC83EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBC8414-A8C6-4338-8AE1-20771DC83EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBC8414-A8C6-4338-8AE1-20771DC83EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBC8414-A8C6-4338-8AE1-20771DC83EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61DBB1D0-6ED6-4013-BDEB-9FCBF488F6F9}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://vmhtfs2015.hevs.ch/tfs/625-1
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CimArk\\CimArk.csproj
+		SccProjectName1 = CimArk
+		SccLocalPath1 = CimArk
+		SccProjectUniqueName2 = BLL\\BLL.csproj
+		SccProjectName2 = BLL
+		SccLocalPath2 = BLL
+		SccProjectUniqueName3 = DAL\\DAL.csproj
+		SccProjectName3 = DAL
+		SccLocalPath3 = DAL
+		SccProjectUniqueName4 = CimArkUnitTests\\CimArkUnitTests.csproj
+		SccProjectName4 = CimArkUnitTests
+		SccLocalPath4 = CimArkUnitTests
+		SccProjectUniqueName5 = DTO2\\DTO2.csproj
+		SccProjectName5 = DTO2
+		SccLocalPath5 = DTO2
+	EndGlobalSection
+EndGlobal
